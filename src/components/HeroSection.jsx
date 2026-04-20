@@ -13,7 +13,6 @@ const HeroSection = () => {
                         url(https://image.tmdb.org/t/p/original${movie[randomNumber]?.backdrop_path})`,
             }}
             >  
-            <Navbar/>
             <div style={{display:"flex",justifyContent:"center",alignItems:"center",height:"80vh"}}>
                 <div id="HeroMovieData">
                     <h1 style={{fontSize:"60px"}}>{movie[randomNumber]?.title}</h1>
